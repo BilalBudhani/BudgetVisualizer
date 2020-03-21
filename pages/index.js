@@ -137,6 +137,7 @@ class HomePage extends Component {
             />
           </section>
         </div>
+        <div class="sharethis-inline-share-buttons"></div>
       </main>
     );
   }
