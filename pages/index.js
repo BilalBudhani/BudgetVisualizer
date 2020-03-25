@@ -27,7 +27,8 @@ class HomePage extends Component {
         <div className="container max-w-3xl">
           <header className="px-12 py-8 bg-white my-2">
             <h1 className="font-black text-xl md:text-2xl lg:text-3xl leading-tight text-center">
-              Spend the NPR + NRC + CAA Money
+              See what you can do with all that money that’ll be spent on
+              NPR+NRC+CAA
             </h1>
           </header>
 
@@ -151,6 +152,17 @@ class HomePage extends Component {
             />
           </section>
         </div>
+        <footer class="my-4 py-2 container max-w-3xl border-t border-gray-500">
+          <strong>Motivation behind this site:</strong>
+          <p class="text-gray-700 leading-relaxed">
+            While the nation is struggling with a dwindling economy, poor
+            infrastructure, unemployment rate continue to rise, people are dying
+            of hunger, farmers are comitting suicide, education & healthcare is
+            still not accessible to all, government is always in a deficit of
+            budget. Spending resources on this NPR+NRC+CAA activity is nothing
+            but squandering.
+          </p>
+        </footer>
         <div class="sharethis-inline-share-buttons"></div>
       </main>
     );
