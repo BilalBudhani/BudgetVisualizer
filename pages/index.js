@@ -23,7 +23,7 @@ class HomePage extends Component {
 
   render() {
     return (
-      <main className="flex w-full justify-center items-center px-6 my-20 lg:p-0 lg:my-10">
+      <main className="flex w-full justify-center items-center px-6 my-20 lg:p-0 lg:my-10 flex-col">
         <div className="container max-w-3xl">
           <header className="px-12 py-8 bg-white my-2">
             <h1 className="font-black text-xl md:text-2xl lg:text-3xl leading-tight text-center">
