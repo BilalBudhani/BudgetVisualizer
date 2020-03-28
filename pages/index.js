@@ -26,9 +26,11 @@ class HomePage extends Component {
       <main className="flex w-full justify-center items-center px-6 my-20 lg:p-0 lg:my-10 flex-col">
         <div className="container max-w-3xl">
           <header className="px-12 py-8 bg-white my-2">
-            <h1 className="font-black text-xl md:text-2xl lg:text-3xl leading-tight text-center">
-              See what you can do with all that money that’ll be spent on
-              NPR+NRC+CAA
+            <h1 className="font-black text-lg leading-tight text-center">
+              7.59 LAKH CRORES on NPR NRC Detention Centers!! <br />
+              What else can we buy from all that money? Play the game to find
+              out! <br />
+              Share with your friends & family how you spent 7.59Lakh Crores!!
             </h1>
           </header>
 
@@ -152,18 +154,32 @@ class HomePage extends Component {
             />
           </section>
         </div>
-        <footer class="my-4 py-2 container max-w-3xl border-t border-gray-500">
-          <strong>Motivation behind this site:</strong>
-          <p class="text-gray-700 leading-relaxed">
-            While the nation is struggling with a dwindling economy, poor
-            infrastructure, unemployment rate continue to rise, people are dying
-            of hunger, farmers are comitting suicide, education & healthcare is
-            still not accessible to all, government is always in a deficit of
-            budget. Spending resources on this NPR+NRC+CAA activity is nothing
-            but squandering.
+        <footer className="my-4 py-2 container max-w-3xl border-t border-gray-500">
+          <strong>Why this was made:</strong>
+          <p className="text-gray-700 leading-relaxed">
+            In recent years, India has witnessed record levels of unemployment,
+            one of the slowest economic growth rates, high farmer suicides,
+            general societal distress due to demonetisation & gst.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            Despite these factors, the govt is hell bent on implementing another
+            policy decision that has not only spread anxiety & social unrest but
+            also will result in a massive financial strain in these already
+            financially stressed times.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            This site, in a playful manner, hopes to enlighten people as to how
+            this large sum of money can be put to good use.
+          </p>
+          <p className="text-gray-700 leading-relaxed">Play the game.</p>
+          <p className="text-gray-700 leading-relaxed">
+            Share, let it reach each citizen of this nation!
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            P.s.: All figures from published sources.
           </p>
         </footer>
-        <div class="sharethis-inline-share-buttons"></div>
+        <div className="sharethis-inline-share-buttons"></div>
       </main>
     );
   }

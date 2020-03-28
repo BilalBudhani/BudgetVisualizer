@@ -7,8 +7,8 @@ export default function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>
-          SpendWisely.in - Visualization of what all can be done with NPR, NRC &
-          CAA budget money
+          SpendWisely.in - Play the game! See what all you can BUY with
+          NPR+NRC+Detention Center Money!!
         </title>
         <link
           href="https://fonts.googleapis.com/css?family=Muli:400,700,900&display=swap"
@@ -26,7 +26,7 @@ export default function MyApp({ Component, pageProps }) {
         />
         <meta
           property="og:title"
-          content="Visualization of what all can be done with NPR, NRC & CAA budget money"
+          content="Play the game! See what all you can BUY with NPR+NRC+Detention Center Money!!"
         />
         <meta property="og:url" content="https://spendwisely.in" />
         <meta property="og:site_name" content="SpendWisely" />
